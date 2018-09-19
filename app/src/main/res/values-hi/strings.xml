@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ScrapyKart</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string-array name="city_name">
+        <item>शहर चुनें</item>
+        <item>पुणे</item>
+    </string-array>
+    <string name="title_activity_profile">प्रोफाइल</string>
+    <string name="title_activity_vendor">विक्रेता सूची</string>
+    <string name="title_activity_order">आदेश इतिहास</string>
+    <string name="title_activity_rate_card">दर कार्ड</string>
+    <string name="title_activity_selection">आदेश दे</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <string name="next">अगला</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">समझ गया</string>
+
+    <string name="slide_1_title">Slide one!</string>
+    <string name="slide_1_desc">First intro screen</string>
+
+    <string name="slide_2_title">Slide two!</string>
+    <string name="slide_2_desc">Second intro screen</string>
+
+
+    <string name="slide_3_title">Slide third!</string>
+    <string name="slide_3_desc">Third intro screen</string>
+
+
+    <string name="slide_4_title">Slide forth!</string>
+    <string name="slide_4_desc">Forth intro screen</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name= "mobile_no">मोबाइल नंबर</string>
+    <string name= "name">नाम</string>
+    <string name= "email_id">ईमेल आईडी</string>
+    <string name= "address">पता</string>
+
+    <string name= "vendor">राकेश विक्रेता</string>
+    <string name= "distance">3 किलोमीटर दूर</string>
+    <string name= "rate_card">दर कार्</string>
+    <string name= "vendor_addr">एफ 11, महादेव नगर, हडपसर, पुन</string>
+
+    <string name= "confirm_card">कार्ड मूल्यों की पुष्टि करें</string>
+    <string name= "estimated_price">अनुमानित दाम</string>
+    <string name= "place_order">आदेश दे</string>
+
+    <string name="select_card">कार्ड का चयन करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="proceed">आगे बढ़ें</string>
+
+    <string name="current">चालू</string>
+    <string name="pending">अनिर्णीत</string>
+    <string name="past">पीछला</string>
+
+    <string name="itemnweight">आइटम / वजन</string>
+    <string name="order_id">आदेश आईडी</string>
+    <string name="pickup_slot">पिकअप स्लॉट</string>
+    <string name="proceed_complete">पूरा करने के लिए आगे बढ़ें</string>
+
+    <string name="info">जानकारी</string>
+    <string name="order_completion">Order completion</string>
+</resources>

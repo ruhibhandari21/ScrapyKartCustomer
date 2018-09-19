@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ScrapyKart</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string-array name="city_name">
+        <item>Select city</item>
+        <item>Pune</item>
+    </string-array>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_vendor">Vendor List</string>
+    <string name="title_activity_order">Order History</string>
+    <string name="title_activity_rate_card">Vendor Info</string>
+    <string name="title_activity_selection">Place order</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Slide one!</string>
+    <string name="slide_1_desc">First intro screen</string>
+
+    <string name="slide_2_title">Slide two!</string>
+    <string name="slide_2_desc">Second intro screen</string>
+
+
+    <string name="slide_3_title">Slide third!</string>
+    <string name="slide_3_desc">Third intro screen</string>
+
+
+    <string name="slide_4_title">Slide forth!</string>
+    <string name="slide_4_desc">Forth intro screen</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name= "mobile_no">Mobile no</string>
+    <string name= "name">Name</string>
+    <string name= "email_id">Email id</string>
+    <string name= "address">Address</string>
+
+    <string name= "vendor">Rakesh vendor</string>
+    <string name= "distance">3 KM away</string>
+    <string name= "rate_card">Rate card</string>
+
+    <string name= "vendor_addr">F11, mahadev nagar, hadapsar, pune</string>
+
+    <string name= "confirm_card">Confirm card values</string>
+    <string name= "estimated_price">Estimated price</string>
+    <string name= "place_order">Place order</string>
+
+    <string name="select_card">Select card</string>
+    <string name="cancel">CANCEL</string>
+    <string name="proceed">PROCEED</string>
+
+    <string name="current">CURRENT</string>
+    <string name="pending">PENDING</string>
+    <string name="past">PAST</string>
+
+    <string name="itemnweight">items/weight</string>
+    <string name="order_id">Order id</string>
+    <string name="pickup_slot">Pickup slot</string>
+    <string name="proceed_complete">Proceed to complete</string>
+
+    <string name="info">INFO</string>
+
+    <string name="order_completion">Order completion</string>
+
+</resources>

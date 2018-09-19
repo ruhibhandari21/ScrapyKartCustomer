@@ -1,0 +1,171 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    card_view:cardCornerRadius="@dimen/dimension5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dimension5dp"
+    android:elevation="@dimen/dimension5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimension5dp"
+        >
+
+        <TextView
+            android:id="@+id/tvItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="@string/vendor"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            />
+
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itemnweight"
+            android:ellipsize="end"
+            android:layout_below="@+id/tvItem"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <TextView
+            android:id="@+id/tvCountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvItem"
+            android:text="3/30kg"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estimated_price"
+            android:ellipsize="end"
+            android:layout_below="@+id/tvCount"
+            android:textSize="@dimen/_12ssp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvPriceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCountValue"
+            android:text="Rs 100"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/tvOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_id"
+            android:ellipsize="end"
+            android:layout_below="@+id/tvPrice"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <TextView
+            android:id="@+id/tvIdValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPriceValue"
+            android:text="SC120012"
+            android:textStyle="italic"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp"
+            android:layout_alignParentRight="true"
+            />
+
+
+        <TextView
+            android:id="@+id/tvSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pickup_slot"
+            android:ellipsize="end"
+            android:layout_below="@+id/tvOrderId"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <TextView
+            android:id="@+id/tvSlotValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="10-1-17 | 10am - 1pm "
+            android:ellipsize="end"
+            android:textStyle="italic|bold"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/tvOrderId"
+
+            />
+
+        <View
+            android:id="@+id/viewDivider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimension2dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/tvSlot"
+            android:layout_marginTop="@dimen/dimension4dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relativeAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_below="@+id/viewDivider"
+            >
+
+            <Button
+                android:id="@+id/btCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorDarkGray"
+                android:text="@string/cancel"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:theme="@style/PrimaryWhiteButton"
+                />
+
+            <Button
+                android:id="@+id/btPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pending"
+                android:textColor="@color/colorOrange"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:theme="@style/PrimaryWhiteButton"
+                />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
